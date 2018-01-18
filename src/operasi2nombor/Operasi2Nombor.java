@@ -13,10 +13,10 @@ import java.util.Scanner;
 public class Operasi2Nombor {
     public static void main(String[]args) {
     Scanner input=new Scanner(System.in);
-    double tambah;
-    double tolak;
-    double darab;
-    double bahagi;
+    double plus;
+    double minus;
+    double time;
+    double divide;
     
    System.out.print("Masukkan no pertama :");
    double no1=input.nextDouble();
@@ -24,16 +24,16 @@ public class Operasi2Nombor {
    System.out.print("Masukkan no kedua :");
    double no2=input.nextDouble();
    
-   tambah = no1+no2;
-   tolak = no1-no2;
-   darab = no1*no2;
-   bahagi = no1/no2;
+   plus = no1+no2;
+   minus = no1-no2;
+   time = no1*no2;
+   divide = no1/no2;
    
    System.out.println("------------------------------------------------------");
-   System.out.println("Jumlah tambah " +no1+ " dan " +no2+ " ialah : " +tambah);
-   System.out.println("Jumlah tolak " +no1+ " dan " +no2+ " ialah : " +tolak);
-   System.out.println("Jumlah darab " +no1+ " dan " +no2+ " ialah : " +tolak);
-   System.out.println("Jumlah bahagi " +no1+ " dan " +no2+ " ialah : " +bahagi);
+   System.out.println("Jumlah plus " +no1+ " dan " +no2+ " ialah : " +plus);
+   System.out.println("Jumlah minus " +no1+ " dan " +no2+ " ialah : " +minus);
+   System.out.println("Jumlah time " +no1+ " dan " +no2+ " ialah : " +minus);
+   System.out.println("Jumlah divide " +no1+ " dan " +no2+ " ialah : " +divide);
    System.out.println("------------------------------------------------------");   
 }
 }
